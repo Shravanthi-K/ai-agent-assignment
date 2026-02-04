@@ -38,16 +38,6 @@ The logic is fully transparent and rule-driven.
 
 ---
 
-## Project Structure
-
-.
-├── app.py # Application entry point
-├── agents.py # Generator and Reviewer agent logic
-└── README.md # Project documentation
-
-
----
-
 ## Example Use Cases
 
 This project can be used as:
@@ -87,10 +77,18 @@ This project is open-source and available for learning and experimentation.
 Created by **Shravanthi K K**
 
 ---
-
 ## Running the Project
+git clone https://github.com/Shravanthi-K/ai-agent-assignment.git
 
-```bash
-git clone <https://github.com/Shravanthi-K/ai-agent-assignment>
-cd <ai-agent-assignment>
+cd ai-agent-assignment
+
 python app.py
+
+---
+## Project Structure
+
+```text
+.
+├── app.py
+├── agents.py
+└── README.md
